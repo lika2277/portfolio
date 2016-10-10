@@ -1302,7 +1302,7 @@ body {
 html {
 	background-color: #313a3d;
 	background-attachment: fixed,						fixed;
-	background-image: url("img/city.jpg"), url("img/city.jpg");
+	background-image: url("../img/01-screen.jpg");
 	background-position: top left,					center center;
 	background-repeat: repeat,						none;
 	background-size: auto,						cover;
@@ -1865,6 +1865,10 @@ a {
 
 	section.special, article.special {
 		text-align: center;
+	}
+
+	header h1 {
+		font-family: "Merriweather", serif;
 	}
 
 	header p {
@@ -2641,7 +2645,7 @@ a {
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
 					background-color: rgba(144, 144, 144, 0.075);
-					background-image: url("images/arrow.svg");
+					background-image: url("../img/arrow.svg");
 					background-position: center center;
 					background-repeat: no-repeat;
 					border-radius: 100%;
