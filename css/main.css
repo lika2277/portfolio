@@ -2131,17 +2131,12 @@ a {
 				position: relative;
 			}
 
-				.icon:before {
-					-moz-osx-font-smoothing: grayscale;
-					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
-					font-style: normal;
-					font-weight: normal;
-					text-transform: none !important;
+				.icon img {
+					width: 2.5em;
+					height: 2.5em;
 				}
 
 				.icon > .label {
-					display: none;
 				}
 
 				.icon.major {
